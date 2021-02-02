@@ -458,7 +458,6 @@ public class HitungNilaiGUI extends javax.swing.JFrame {
         btnEdit.setEnabled(false);
         btnHapus.setEnabled(false);
         btnBatal.setEnabled(true);
-        
         }
     }//GEN-LAST:event_btnHitungActionPerformed
 
