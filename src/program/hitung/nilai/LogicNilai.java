@@ -7,26 +7,38 @@ package program.hitung.nilai;
 
 public class LogicNilai {
 
-   private String NIM,NM;
-    private double Quiz,Tugas,Mid,Final;
+   private String NIM,NM,Huruf,id;
+    private double Quiz,Tugas,Mid,Final,Akhir;
+    
+    public void setid(String id) {
+        this.id = id;
+    }
 
     public void setNIM(String no){
-        NIM=no;
+        this.NIM=no;
     }
     public void setNM(String nama){
-        NM=nama;
+        this.NM=nama;
     }
     public void setQuiz(double c){
-        Quiz=c;
+        this.Quiz=c;
     }
     public void setTugas(double d){
-        Tugas=d;
+        this.Tugas=d;
     }
     public void setMid(double e){
-        Mid=e;
+        this.Mid=e;
     }
     public void setFinal(double f){
-        Final=f;
+        this.Final=f;
+    }
+    
+    public void setHuruf(String h) {
+        this.Huruf=h;
+    }
+    
+    public void setAkhir(double q){
+        this.Akhir=q;
     }
     public String getNS(){
         return(NIM);
